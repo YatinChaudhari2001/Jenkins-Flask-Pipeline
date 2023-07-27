@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 @app.route("/", methods=["GET"])
 def root():
-    return "Welcome to my Flask Application...!"
+    return '<h1 style="color: orange">Welcome to my Flask Application...!</h1>'
 
 
 # run the application
